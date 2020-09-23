@@ -1,7 +1,7 @@
-# Journey to the Cloud
+# Journey to the Cloud and beyond
 A chronicle of my journey one Byte at a time
 
-My hope is to be an inspiration to someone.
+My hope is to be a source of inspiration
 
 ## Goal - Set up a blog to host my journey
 1. Open Source
