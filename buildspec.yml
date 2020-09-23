@@ -8,7 +8,7 @@ phases:
       - export PATH=$PATH:./hugo_0.75.1_Linux-64bit
   build:
     commands:
-      - hugo_0.75.1_Linux-64bit -t ananke
+      - hugo -t ananke
   post_build:
     commands:
       - git add *
