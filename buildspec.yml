@@ -4,9 +4,10 @@ phases:
   
   build:
     commands:
-      - docker run --rm -it -v $(pwd):/src klakegg/hugo:0.74.3-alpine "-t ananke" 2>&1 | tee -a log.txt
+      - docker run --rm -it -v $(pwd):/src klakegg/hugo:0.74.3-alpine "-t ananke"
   post_build:
     commands:
+      - git add *
       - git commit -m "codebuild"
-      - git push origin master
+      - git push
       
