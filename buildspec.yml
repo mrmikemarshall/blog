@@ -1,7 +1,7 @@
 version: 0.2
 
 phases:
-  pre-build:
+  install:
     commands:
       - wget https://github.com/gohugoio/hugo/releases/download/v0.75.1/hugo_0.75.1_Linux-64bit.tar.gz
       - tar zxvf ./hugo_0.75.1_Linux-64bit.tar.gz
