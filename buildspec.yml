@@ -7,9 +7,13 @@ phases:
       - tar zxvf ./hugo_0.75.1_Linux-64bit.tar.gz
   build:
     commands:
+      - pushd public
+      - git clone https://github.com/mrmikemarshall/mrmikemarshall.github.io.git
+      - popd
       - ./hugo -t ananke
   post_build:
     commands:
+      - cd public
       - git add *
       - git commit -m "codebuild"
       - git push
