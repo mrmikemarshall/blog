@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  
+  build:
+    commands:
+      - docker run --rm -it -v $(pwd):/src klakegg/hugo:0.74.3-alpine "-t ananke" 2>&1 | tee -a log.txt
+  post_build:
+    commands:
+      - git commit -m "codebuild"
+      - git push origin master
+      
