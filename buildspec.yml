@@ -4,6 +4,8 @@ phases:
   
   build:
     commands:
+      - echo $(pwd)
+      - ls
       - docker run -v $(pwd):/src klakegg/hugo:0.74.3-alpine "-t ananke"
   post_build:
     commands:
