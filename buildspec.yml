@@ -11,7 +11,5 @@ phases:
       - mkdir public
       - git clone https://github.com/mrmikemarshall/mrmikemarshall.github.io.git public
       - ./hugo -t ananke
-      - cd public
-      - git add *
-      - git push
+      - cd public && git add * && git commit && git push
       
