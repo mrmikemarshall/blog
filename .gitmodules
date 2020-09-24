@@ -2,5 +2,5 @@
 	path = themes/ananke
 	url = https://github.com/budparr/gohugo-theme-ananke.git
 [submodule "public/"]
-	path = public/
+	path = public
 	url = git@github.com:mrmikemarshall/mrmikemarshall.github.io.git
