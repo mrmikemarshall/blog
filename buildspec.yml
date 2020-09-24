@@ -14,7 +14,7 @@ phases:
       - git checkout master
       - git branch
       - git add .
-      - git config credential.https://github.com mrmikemarshall
+      - git config credential.https://github.com.username mrmikemarshall
       - git config user.name "Mike Marshall"
       - git config user.email "mrmikemarshall@gmail.com"
       - git commit -m "${CODEBUILD_BUILD_ID}"
