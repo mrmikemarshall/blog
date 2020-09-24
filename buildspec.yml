@@ -17,6 +17,7 @@ phases:
       - git config user.email "mrmikemarshall@gmail.com"
       - git commit -m "${CODEBUILD_BUILD_ID}"
       - git status
+      - git remote set-url origin git@github.com:mrmikemarshall/mrmikemarshall.github.io.git
       - git remote -v
       - git push
       
