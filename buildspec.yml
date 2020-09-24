@@ -9,8 +9,8 @@ phases:
     commands:
       - echo "$(pwd)"
       - find . -print
-      - rm -fr public
-      - mkdir public
-      - git clone https://github.com/mrmikemarshall/mrmikemarshall.github.io.git public
       - ./hugo -t ananke
+      - git add *
+      - git commit
+      - git push
       
