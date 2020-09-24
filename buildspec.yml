@@ -10,6 +10,7 @@ phases:
       - echo "$(pwd)"
       - env
       - ./hugo -t ananke
+      - git config advice.addIgnoredFile false
       - git add *
       - git config user.name "Mike Marshall"
       - git config user.email "mrmikemarshall@gmail.com"
