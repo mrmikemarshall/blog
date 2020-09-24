@@ -14,6 +14,6 @@ phases:
       - git add *
       - git config user.name "Mike Marshall"
       - git config user.email "mrmikemarshall@gmail.com"
-      - git commit -m "codebuild"
-      - git push
+      - git commit -m "${CODEBUILD_BUILD_ID}"
+      - git push origin HEAD:feature-build
       
