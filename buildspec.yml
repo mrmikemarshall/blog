@@ -9,6 +9,7 @@ phases:
     commands:
       - echo "$(pwd)"
       - find . -print
+      - env
       - ./hugo -t ananke
       - git add *
       - git config user.name "Mike Marshall"
