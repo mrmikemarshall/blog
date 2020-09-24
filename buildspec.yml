@@ -10,10 +10,10 @@ phases:
       - echo "$(pwd)"
       - env
       - ./hugo -t ananke
-      - git config advice.addIgnoredFile false
-      - git add *
+      - cd public
+      - git add .
       - git config user.name "Mike Marshall"
       - git config user.email "mrmikemarshall@gmail.com"
       - git commit -m "${CODEBUILD_BUILD_ID}"
-      - git push origin HEAD:feature-build
+      - git push origin master
       
