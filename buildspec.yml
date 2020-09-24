@@ -11,6 +11,8 @@ phases:
       - find . -print
       - ./hugo -t ananke
       - git add *
+      - git config user.name "Mike Marshall"
+      - git config user.email "mrmikemarshall@gmail.com"
       - git commit
       - git push
       
