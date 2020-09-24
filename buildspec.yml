@@ -1,15 +1,33 @@
 version: 0.2
 
+env:
+  parameter-store:
+    ssh_key: "/codebuild/id_rsa"
+    ssh_pub: "/codebuild/id_rsa.pub"
 phases:
-  
+  install:
+    commands:
+      - wget https://github.com/gohugoio/hugo/releases/download/v0.75.1/hugo_0.75.1_Linux-64bit.tar.gz
+      - tar zxvf ./hugo_0.75.1_Linux-64bit.tar.gz
+  pre_build:
+    commands:
+      - mkdir -p ~/.ssh
+      - echo "${ssh_key}" > ~/.ssh/id_rsa
+      - echo "${ssh_pub}" > ~/.ssh/id_rsa.pub
+      - chmod 400 ~/.ssh/id_rsa
+      - eval "$(ssh-agent -s)"
   build:
     commands:
-      - echo $(pwd)
-      - ls
-      - docker run -v $(pwd):/src klakegg/hugo:0.74.3-alpine "-t ananke"
-  post_build:
-    commands:
-      - git add *
-      - git commit -m "codebuild"
+      - cd public
+      - git checkout master
+      - cd ..
+      - ./hugo -t ananke
+      - cd public
+      - git add .
+      - git config user.name "m3build"
+      - git config user.email "mrmikemarshall+m3build@gmail.com"
+      - git commit -m "AWS CodeBuild: ${CODEBUILD_BUILD_ID}"
+      - git status
+      - git remote set-url origin git@github.com:mrmikemarshall/mrmikemarshall.github.io.git
       - git push
       
