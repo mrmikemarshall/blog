@@ -11,7 +11,7 @@ phases:
       - env
       - ./hugo -t ananke
       - cd public
-      - git branch -mv origin master
+      - git branch
       - git add .
       - git config user.name "Mike Marshall"
       - git config user.email "mrmikemarshall@gmail.com"
