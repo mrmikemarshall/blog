@@ -12,4 +12,4 @@ My hope is to be a source of inspiration
    - Manage Infrastucture as Code (IaC)
      - [Terraform](https://www.terraform.io/)
 1. Build and manage the blog 99% using an ipad.
-   - It can be done. 
+   - It can be done.
