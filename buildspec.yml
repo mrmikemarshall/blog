@@ -12,6 +12,8 @@ phases:
       - git clone https://github.com/mrmikemarshall/mrmikemarshall.github.io.git public
       - ./hugo -t ananke
       - cd public
+      - git config --global user.email "mrmikemarshall@gmail.com"
+      - git config --global user.name "Mike Marshall"
       - git init
       - git add *
       - git commit
