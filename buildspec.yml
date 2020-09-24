@@ -2,8 +2,8 @@ version: 0.2
 
 env:
   parameter-store:
-    ssh_key: /codebuild/id_rsa
-    ssh_pub: /codebuild/id_rsa.pub
+    ssh_key: "/codebuild/id_rsa"
+    ssh_pub: "/codebuild/id_rsa.pub"
 phases:
   install:
     commands:
