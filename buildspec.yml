@@ -11,6 +11,7 @@ phases:
       - git checkout master
       - cd ..
       - ./hugo -t ananke
+      - cd public
       - git add .
       - git config user.name "Mike Marshall"
       - git config user.email "mrmikemarshall@gmail.com"
