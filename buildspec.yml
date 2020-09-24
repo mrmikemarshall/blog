@@ -13,6 +13,6 @@ phases:
       - ./hugo -t ananke
       - cd public
       - git add *
-      - git commit -m "codebuild"
+      - git commit
       - git push
       
