@@ -17,5 +17,6 @@ phases:
       - git config user.email "mrmikemarshall@gmail.com"
       - git commit -m "${CODEBUILD_BUILD_ID}"
       - git status
+      - git remote -v
       - git push
       
