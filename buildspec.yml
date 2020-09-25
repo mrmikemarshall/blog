@@ -27,7 +27,6 @@ phases:
       - git config user.name "m3build"
       - git config user.email "mrmikemarshall+m3build@gmail.com"
       - git commit -m "AWS-CodeBuild-${CODEBUILD_BUILD_ID}"
-      - git status
       - git remote set-url origin git@github.com:mrmikemarshall/mrmikemarshall.github.io.git
       - git push
       
