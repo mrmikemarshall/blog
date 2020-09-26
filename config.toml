@@ -27,9 +27,9 @@ disqusShortname = ""
   js_modules = []
 
   # Description and meta data for the search engines
-  author = "Lednerb"
-  description = "Bilberry Premium Theme for Hugo."
-  keywords = "blog,personal,responsive,search,font awesome,pages,posts,multilingual,highlight.js,syntax highlighting,premium,shortcuts"
+  author = "mrmikemarshall"
+  description = "Journey to the Cloud and Beyond"
+  keywords = "blog,aws,devops,cicd,automation,kubernetes,docker,fargate"
 
   # How many articles should be displayed at once?
   paginate = 7
@@ -46,7 +46,7 @@ disqusShortname = ""
     algolia_currentLanguageOnly = true
 
   # Enable / Disable comments on the articles via commento
-  commentoJsURL = "https://commento.lednerb.de/js/commento.js"
+  # commentoJsURL = "https://commento.lednerb.de/js/commento.js"
 
   # Media configuration
     # let hugo automatically resize and crop your images to the correct sizes
@@ -120,6 +120,7 @@ disqusShortname = ""
     socialMediaLinks = [
       { link = "https://twitter.com/mrmikemarshall", icon = "fab fa-twitter" },
       { link = "https://github.com/mrmikemarshall", icon = "fab fa-github" },
+      { link = "http://linkedin.com/in/mrmikemarshall", icon = "fab fa-linkedin" },
     ]
 
     # credits line configuration
