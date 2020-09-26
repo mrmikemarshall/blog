@@ -21,7 +21,7 @@ phases:
       - cd public
       - git checkout master
       - cd ..
-      - ./hugo -t ananke
+      - ./hugo -t bilberry-hugo-theme
       - cd public
       - git add .
       - git config user.name "m3build"
