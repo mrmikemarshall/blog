@@ -1,8 +1,17 @@
 ---
 title: "About"
-description: "Mike Marshall"
-featured_image: ''
+date: 2020-09-26T13:13:06-04:00
+draft: false
+excludeFromTopNav: false
+
+# set the link if you want to redirect the user.
+link: ""
+# set the html target parameter if you want to change default behavior
+target: "_blank"
 ---
+
+Mike Marshall
+
 Summary:
 > Cloud Enthusiast, 5xAWS Certified, Terraform Associate Certified, VMware VCD-DCA
 AWS Solutions Architect, DevOps, SRE, Cloud automation, Consulting

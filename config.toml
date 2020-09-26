@@ -29,7 +29,7 @@ disqusShortname = ""
   # Description and meta data for the search engines
   author = "mrmikemarshall"
   description = "Journey to the Cloud and Beyond"
-  keywords = "blog,aws,devops,cicd,automation,kubernetes,docker,fargate"
+  keywords = "blog,aws,devops,cicd,cloud,automation,kubernetes,docker,fargate"
 
   # How many articles should be displayed at once?
   paginate = 7
@@ -75,7 +75,7 @@ disqusShortname = ""
     stickyNav = false
 
     # show a language chooser in the header
-    showHeaderLanguageChooser = true
+    showHeaderLanguageChooser = false
 
   # Content configuration
     # Enable an optional pinned page to display at the top of the index
@@ -124,10 +124,10 @@ disqusShortname = ""
     ]
 
     # credits line configuration
-    copyrightBy = "by Lednerb"
-    copyrightUseCurrentYear = false  # set to true to always display the current year in the copyright
-    copyrightYearOverride = "2017"
-    copyrightUrl = "https://github.com/Lednerb"
+    copyrightBy = "by Mike Marshall"
+    copyrightUseCurrentYear = true  # set to true to always display the current year in the copyright
+    copyrightYearOverride = ""
+    copyrightUrl = "https://github.com/mrmikemarshall"
     creditsText = "Bilberry Hugo Theme"
     creditsUrl = "https://github.com/Lednerb/bilberry-hugo-theme"
 
@@ -137,10 +137,10 @@ disqusShortname = ""
 [Languages]
   [Languages.en]
     weight = 1
-  [Languages.de]
-    weight = 2
-    title = "Mein cooler neuer Blog"
-    subtitle = "Hallo Welt! Dies ist der epischste Untertitel aller Zeiten."
+  #[Languages.de]
+  #  weight = 2
+  #  title = "Mein cooler neuer Blog"
+  #  subtitle = "Hallo Welt! Dies ist der epischste Untertitel aller Zeiten."
 
 # don't change anything below
 [taxonomies]
