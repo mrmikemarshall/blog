@@ -1,4 +1,3 @@
-[submodule "themes/ananke"]
 [submodule "public"]
     path = public
 	url = https://github.com/mrmikemarshall/mrmikemarshall.github.io.git
