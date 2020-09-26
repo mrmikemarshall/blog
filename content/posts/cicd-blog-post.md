@@ -1,6 +1,6 @@
 ---
 title: "CICD Blog Post"
-date: 2020-09-25T03:31:42Z
+date: 2020-09-24T03:31:42Z
 draft: false
 ---
 
