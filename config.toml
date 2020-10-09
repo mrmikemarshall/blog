@@ -9,7 +9,7 @@ enableRobotsTXT = true
 DefaultContentLanguage = "en"
 
 # Enable / Disable Google Analytics statistics for your site
-googleAnalytics = ""
+googleAnalytics = "UA-180168051-1"
 
 # Enable / Disable comments on the articles via Disqus.
 disqusShortname = ""
@@ -29,7 +29,7 @@ disqusShortname = ""
   # Description and meta data for the search engines
   author = "mrmikemarshall"
   description = "Journey to the Cloud and Beyond"
-  keywords = "blog,aws,devops,cicd,cloud,automation,kubernetes,docker,fargate"
+  keywords = "blog,aws,devops,cicd,cloud,automation,kubernetes,docker,fargate,terraform"
 
   # How many articles should be displayed at once?
   paginate = 7
