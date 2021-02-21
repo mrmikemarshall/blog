@@ -1,6 +1,6 @@
 ---
 title: "How deploying lambda with Terraform is a Win-Win"
-date: 2021-02-20T00:00:00Z
+date: 2021-02-21T00:00:00Z
 draft: false
 ---
 
