@@ -12,7 +12,7 @@ DefaultContentLanguage = "en"
 googleAnalytics = "UA-180168051-1"
 
 # Enable / Disable comments on the articles via Disqus.
-disqusShortname = ""
+disqusShortname = "mrmikemarshall"
 
 # Enable / Disable open link with a new tab.
 [blackfriday]
@@ -29,7 +29,7 @@ disqusShortname = ""
   # Description and meta data for the search engines
   author = "mrmikemarshall"
   description = "Journey to the Cloud and Beyond"
-  keywords = "blog,aws,devops,cicd,cloud,automation,kubernetes,docker,fargate,terraform"
+  keywords = "blog,aws,devops,cicd,cloud,automation,kubernetes,docker,fargate,terraform,fluent,golang,observibility,logging,metrics"
 
   # How many articles should be displayed at once?
   paginate = 7
@@ -157,3 +157,7 @@ disqusShortname = ""
     endLevel = 5
     ordered = false
     startLevel = 2
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
