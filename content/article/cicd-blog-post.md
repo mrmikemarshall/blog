@@ -6,4 +6,4 @@ draft: false
 
 This content is being deployed on repo push!
 
-![static/img/Blog-AWS-architecture.png](static/img/Blog-AWS-architecture.png)
+![Architecture](file:///static/img/Blog-AWS-architecture.png)
