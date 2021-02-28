@@ -2,5 +2,9 @@
     path = public
 	url = https://github.com/mrmikemarshall/mrmikemarshall.github.io.git
 [submodule "themes/bilberry-hugo-theme"]
-	path = themes/bilberry-hugo-theme
-	url = https://github.com/Lednerb/bilberry-hugo-theme.git
+[submodule "bilberry-hugo-theme"]
+	path = bilberry-hugo-theme
+	url = https://github.com:mrmikemarshall/bilberry-hugo-theme.git
+[submodule "bilberry-hugo-theme-mrmikemarshall"]
+	path = bilberry-hugo-theme-mrmikemarshall
+	url = https://github.com/mrmikemarshall/bilberry-hugo-theme.git
