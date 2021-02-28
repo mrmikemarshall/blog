@@ -7,4 +7,4 @@ draft: false
 This content is being deployed on repo push!
 
 And here’s my AWS architecture:
-![Architecture](https://mrmikemarshall.GitHub.io/img/Blog-AWS-architecture.png)
+![Architecture](https://mrmikemarshall.GitHub.io/img/Blog-AWS-architecture.jpeg)
