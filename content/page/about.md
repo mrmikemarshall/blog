@@ -20,3 +20,4 @@ Contact:
 > Email: mrmikemarshall@gmail.com
 [LinkedIn](http://linkedin.com/in/mrmikemarshall) 
 [GitHub](https://github.com/mrmikemarshall)
+[![AWS Certified Solutions Architect - Professional](https://mrmikemarshall.github.io/img/AWS-CSAP.png)](https://mrmikemarshall.github.io)
