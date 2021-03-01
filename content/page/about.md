@@ -23,6 +23,5 @@ Contact:
 [LinkedIn](http://linkedin.com/in/mrmikemarshall) 
 [GitHub](https://github.com/mrmikemarshall)
 
-| Certifications |
-| --- |
-| [![AWS Certified Solutions Architect - Professional](https://mrmikemarshall.github.io/img/AWS-CSAP.png)](https://mrmikemarshall.github.io)[![AWS Certified DevOps Engineer - Professional](https://mrmikemarshall.github.io/img/AWS-CDP.png)](https://mrmikemarshall.github.io)[![AWS Certified Security Specialty](https://mrmikemarshall.github.io/img/AWS-CSS.png)](https://mrmikemarshall.github.io)[![AWS Certified Solutions Architect - Associate](https://mrmikemarshall.github.io/img/AWS-CSAA.png)](https://mrmikemarshall.github.io)[![AWS Certified Developer - Associate](https://mrmikemarshall.github.io/img/AWS-CDA.png)](https://mrmikemarshall.github.io)[![Terraform Certified Associate](https://mrmikemarshall.github.io/img/Terraform-CA.png)](https://mrmikemarshall.github.io) |
+
+[![AWS Certified Solutions Architect - Professional](https://mrmikemarshall.github.io/img/AWS-CSAP.png)](https://mrmikemarshall.github.io)[![AWS Certified DevOps Engineer - Professional](https://mrmikemarshall.github.io/img/AWS-CDP.png)](https://mrmikemarshall.github.io)[![AWS Certified Security Specialty](https://mrmikemarshall.github.io/img/AWS-CSS.png)](https://mrmikemarshall.github.io)[![AWS Certified Solutions Architect - Associate](https://mrmikemarshall.github.io/img/AWS-CSAA.png)](https://mrmikemarshall.github.io)[![AWS Certified Developer - Associate](https://mrmikemarshall.github.io/img/AWS-CDA.png)](https://mrmikemarshall.github.io)[![Terraform Certified Associate](https://mrmikemarshall.github.io/img/Terraform-CA.png)](https://mrmikemarshall.github.io)
