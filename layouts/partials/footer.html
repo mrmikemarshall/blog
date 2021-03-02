@@ -38,13 +38,12 @@
                 {{ range .Site.Params.socialMediaLinks }}
                 <a href="{{ .link }}" target="_blank"><i class="{{ .icon }}"></i></a>
                 {{ end }}
-                <br>
-                <img src="https://mrmikemarshall.github.io/img/AWS-CSAP.png" alt="AWS Certified Solutions Architect - Professional" />
+            </div>
+            {{ end }}
+              <img src="https://mrmikemarshall.github.io/img/AWS-CSAP.png" alt="AWS Certified Solutions Architect - Professional" />
                 <img src="https://mrmikemarshall.github.io/img/AWS-CDP.png" alt="AWS Certified DevOps Engineer - Professional" />
                 <img src="https://mrmikemarshall.github.io/img/AWS-CSS.png" alt="AWS Certified Security Specialty" />
                 <img src="https://mrmikemarshall.github.io/img/Terraform-CA.png" alt="Terraform Certified Associate" />
-            </div>
-            {{ end }}
 
             {{ if and (.Site.Params.showFooterLanguageChooser | default true) (gt .Site.Languages 1) }}
             {{- $.Scratch.Set "language" .Language -}}
