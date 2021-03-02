@@ -124,7 +124,7 @@ disqusShortname = "mrmikemarshall"
     ]
 
     # credits line configuration
-    copyrightBy = "by Mike Marshall"
+    copyrightBy = "by Michael Marshall <><"
     copyrightUseCurrentYear = true  # set to true to always display the current year in the copyright
     copyrightYearOverride = ""
     copyrightUrl = "https://github.com/mrmikemarshall"
