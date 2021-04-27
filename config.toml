@@ -29,7 +29,7 @@ disqusShortname = "mrmikemarshall"
   # Description and meta data for the search engines
   author = "mrmikemarshall"
   description = "Journey to the Cloud and Beyond"
-  keywords = "blog,aws,devops,cicd,cloud,automation,kubernetes,docker,fargate,terraform,fluent,golang,observibility,logging,metrics"
+  keywords = "blog,aws,devops,cicd,cloud,automation,kubernetes,docker,fargate,terraform,fluent,golang,observibility,logging,metrics,fluentcon,fluen bit,talk,grafana,prometheus,loki,open source"
 
   # How many articles should be displayed at once?
   paginate = 7
