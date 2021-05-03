@@ -1,5 +1,5 @@
 ---
-title: “Open Source Cloud Native Data Observability”
+title: "Open Source Cloud Native Data Observability"
 date: 2021-05-02T17:47:42Z
 draft: false
 ---
@@ -41,5 +41,7 @@ Alternatively, you can find me in community Slack channels of each of the projec
 Most of all enjoy!  Hope to see you at the talk!
 
 Thank You,
+
 Michael Marshall
+
 mrmikemarshall@gmail.com
